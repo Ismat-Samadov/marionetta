@@ -1,29 +1,32 @@
-<svg width="32" height="32" xmlns="http://www.w3.org/2000/svg">
-  <!-- Background -->
-  <rect width="32" height="32" fill="#5DADE2" rx="6"/>
+<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sky Background -->
+  <rect width="32" height="32" fill="#5DADE2"/>
 
-  <!-- Mario Hat (Red) -->
-  <rect x="8" y="8" width="16" height="6" fill="#E74C3C" rx="2"/>
-  <circle cx="16" cy="11" r="2" fill="#FFF"/>
+  <!-- Red Cap -->
+  <rect x="7" y="7" width="18" height="7" fill="#E74C3C" rx="3"/>
+  <circle cx="16" cy="10" r="2.5" fill="#FFF"/>
+  <text x="16" y="12" font-family="Arial" font-size="4" font-weight="bold" text-anchor="middle" fill="#E74C3C">M</text>
 
-  <!-- Mario Face (Skin tone) -->
-  <rect x="10" y="14" width="12" height="8" fill="#FDBCB4" rx="1"/>
+  <!-- Face -->
+  <ellipse cx="16" cy="18" rx="8" ry="6" fill="#FDBCB4"/>
 
   <!-- Eyes -->
   <circle cx="13" cy="17" r="1.5" fill="#000"/>
   <circle cx="19" cy="17" r="1.5" fill="#000"/>
 
+  <!-- Nose -->
+  <ellipse cx="16" cy="19" rx="1.5" ry="2" fill="#F4A460"/>
+
   <!-- Mustache -->
-  <ellipse cx="13" cy="20" rx="2" ry="1" fill="#654321"/>
-  <ellipse cx="19" cy="20" rx="2" ry="1" fill="#654321"/>
+  <path d="M 11 21 Q 13 20 16 21 Q 19 20 21 21" stroke="#654321" stroke-width="2" fill="none" stroke-linecap="round"/>
 
-  <!-- Overalls (Blue) -->
-  <rect x="12" y="22" width="8" height="8" fill="#3498DB" rx="1"/>
+  <!-- Blue Overalls -->
+  <rect x="11" y="24" width="10" height="7" fill="#3498DB" rx="2"/>
 
-  <!-- Yellow buttons -->
-  <circle cx="14" cy="25" r="1" fill="#FFD700"/>
-  <circle cx="18" cy="25" r="1" fill="#FFD700"/>
+  <!-- Yellow Buttons -->
+  <circle cx="13" cy="26" r="1" fill="#FFD700"/>
+  <circle cx="19" cy="26" r="1" fill="#FFD700"/>
 
-  <!-- Ground/Platform -->
-  <rect x="2" y="30" width="28" height="2" fill="#27AE60" rx="1"/>
+  <!-- Green Ground -->
+  <rect x="0" y="30" width="32" height="2" fill="#27AE60"/>
 </svg>
